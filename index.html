@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+        <div class=container>
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4 text-center">New York Times Search</h1>
+                  <!-- <p class="lead">New York Times Search</p> -->
+                </div>
+              </div>
+        <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Search Term</label>
+                  <input type="email" class="form-control" id="searchinput">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Number of Records to Retrieve</label>
+                  <select class="form-control" id="recordsinput">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <!-- <label for="exampleFormControlSelect2">Start Year (Optional)</label>
+                  <select multiple class="form-control" id="exampleFormControlSelect2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select> -->
+                  <div class="form-group">
+                        <label for="exampleFormControlInput2">Start Year </label>
+                        <input type="email" class="form-control" id="startyear" >
+                      </div>
+                </div>
+                <div class="form-group">
+                  <!-- <label for="exampleFormControlTextarea1">End Year (Optional)</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea> -->
+                  <label for="exampleFormControlInput3">End Year </label>
+                  <input type="email" class="form-control" id="endyear">
+                </div>
+                <!--  -->
+                
+                <button type="button" class="btn btn-primary">Search</button>
+              </form>
+            </div>
+            <div class="container">
+                <div id="results1">
+
+                </div>
+                <div id="results2">
+
+                </div>
+                <div id="results3">
+
+                </div>
+                <div id="results4">
+
+                </div>
+                <div id="results5">
+
+                </div>
+                
+
+            </div>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
+
+
